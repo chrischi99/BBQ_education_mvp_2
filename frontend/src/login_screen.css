@@ -1,0 +1,130 @@
+body{
+    background: rgb(255, 255, 255);
+  }
+  .middle{
+    position: absolute;
+    width: 500px;
+    height: 1024px;
+    left: 570px;
+    top: 0px;
+    background: rgba(204, 203, 204, 0.24);
+    border: 1px solid #CCCBCC;
+    box-sizing: border-box;
+    backdrop-filter: blur(16px);
+    border-radius: 8px;
+  }
+  .selection{
+    position: absolute;
+    height: 52px;
+    left: 105px;
+    top: 330px;
+  }
+  .email{
+    position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 105px;
+    top: 400px;
+    font-family: "Roboto", sans-serif;
+
+  }
+  .password_input{
+    position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 105px;
+    top: 470px;
+  }
+  .login{
+    position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 105px;
+    top: 580px;
+  }
+  .register{
+    position: absolute;
+    width: 267px;
+    height: 22px;
+    left: 150px;
+    top: 535px;
+    font-family: Salsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #120E21;
+  }
+  .login_font{
+    position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 220px;
+    top: 230px;
+  }
+  .e_input{
+    outline: 0;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #CC6969;
+    border-radius: 8px;
+    border: 1px solid #CCCBCC;
+  }
+  .p_input{
+    outline: 0;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #CC6969;
+    border-radius: 8px;
+    border: 1px solid #CCCBCC;
+    
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  input[type=text] {
+      color: white;
+      font-size: 14px;
+  }
+  input[type = password]{
+    color: white;
+    font-size: 14px;
+  }
+  .link_register{
+    color: #CC6969;
+  }
+  #type{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    width: 295px;
+    height: 52px;
+    background-color: #CC6969;
+    color:white;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #CCCBCC;
+  }
+  #login_button{
+    appearance: none;
+    border-radius: 8px;
+    width: 295px;
+    height: 52px;
+    background-color: #CC6969;
+    color: white;
+    padding-right: 10px;
+    font-size: 18px;
+    border: 1px solid #CCCBCC;
+  }

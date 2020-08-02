@@ -1,7 +1,12 @@
 # User Data Structure & Methods
-from ./__init__ import db, pd, bcrypt
+import sys
+import os
+import bcrypt
+import pymongo
+client = pymongo.MongoClient("localhost")
+db = client.IntelliC
 
-class User(db.Model):
+class User(object):
 
     # __init__(register)
     def __init__(self, uType, name, email, password):
@@ -12,13 +17,17 @@ class User(db.Model):
         self.assignment = []
         self.course = []
 
+    def get_name(self):
+        return self.name
+
     @staticmethod
     def hashed_password(password):
         return bcrypt.generate_password_hash(password).decode("utf-8")
 
     @staticmethod
-    def get_user_with_email_and_password(email, password):
-        user = User.query.filter_by(email=email).first()
+    def get_user(email, password):
+        user = db.users.find({"user_name": email})
+        user = user.next()
         if user and bcrypt.check_password_hash(user.password, password):
             return user
         return None

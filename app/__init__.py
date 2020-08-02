@@ -1,9 +1,9 @@
+import sys
+import os
 from flask import Flask
 app = Flask(__name__)
 
-from flask.ext.bcrypt import Bcrypt
-bcrypt = Bcrypt(app)
-
+import bcrypt
 import pymongo
 client = pymongo.MongoClient("localhost")
 db = client.IntelliC
