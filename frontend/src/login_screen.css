@@ -90,11 +90,10 @@ body{
     
   }
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
+    color: grey;
     opacity: 1; /* Firefox */
   }
   input[type=text] {
-      color: white;
       font-size: 14px;
   }
   input[type = password]{

@@ -1,5 +1,6 @@
-/* .App {
-  text-align: center;
+.App {
+  font-family: Roboto;
+  color:  #747474
 }
 
 .App-logo {
@@ -27,6 +28,17 @@
 .App-link {
   color: #61dafb;
 }
+.hw_name{
+  position: relative;
+  padding-right: 2%;
+}
+.hw_due_date{
+  position: relative;
+  padding-right: 2%;
+}
+.hw_score{
+  position: relative;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -37,4 +49,541 @@
   }
 }
 
- */
+.user_email{
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.user_password{
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.Login_middle_box{
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 600px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.Login_middle_box_2{
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 756px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.logo{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFA0A0;
+}
+
+#submit_button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.top_menu{
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.login_menu{
+  position: absolute;
+  left: 8%;
+  top: 3%
+}
+
+.register_menu{
+  position: absolute;
+  left: 15%;
+  top: 3%
+}
+
+.welcome_menu{
+  position: absolute;
+  left: 70%;
+  top: 3%
+}
+
+.bbq_logo{
+  position: absolute;
+  left: 3%;
+  top: 3%
+}
+.user_log{
+  position: absolute;
+  left: 93%;
+  top: 1%;
+}
+
+.logo{
+  position: absolute;
+  left: 35%;
+  top: 8%;
+}
+.email_icon{
+  position: absolute;
+  top: 29.5%;
+  left: 10%;
+}
+.email_instru{
+  position: absolute;
+  top:30%;
+  left:15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  }
+.user_email{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 380px;
+  height: 70px;
+}
+
+.email_icon_2{
+  position: absolute;
+  top: 29.5%;
+  left: 10%;
+}
+.email_instru_2{
+  position: absolute;
+  top:30%;
+  left:15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  }
+.user_email_2{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 380px;
+  height: 60px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+
+.passwored_icon{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+.password_instru{
+  position: absolute;
+  top:55%;
+  left: 15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+.user_password{
+  position: absolute;
+  top:60%;
+  left: 10%;
+  width: 380px;
+  height: 70px;
+}
+
+.passwored_icon_2{
+  position: absolute;
+  top: 44.5%;
+  left: 10%;
+}
+.password_instru_2{
+  position: absolute;
+  top:45%;
+  left: 15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+.user_password_2{
+  position: absolute;
+  top:50%;
+  left: 10%;
+  width: 380px;
+  height: 60px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.passwored_icon_3{
+  position: absolute;
+  top: 59.5%;
+  left: 10%;
+}
+.password_instru_3{
+  position: absolute;
+  top:60%;
+  left: 15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+.user_password_3{
+  position: absolute;
+  top:65%;
+  left: 10%;
+  width: 380px;
+  height: 60px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.passwored_icon_4{
+  position: absolute;
+  top: 74.5%;
+  left: 10%;
+}
+.password_instru_4{
+  position: absolute;
+  top:75%;
+  left: 15%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+.user_password_4{
+  position: absolute;
+  top:80%;
+  left: 10%;
+  width: 380px;
+  height: 60px;
+  font-size: 55px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+
+.login_logo{
+  position: absolute;
+  top:80%;
+  left: 30%;
+}
+.submit_button{
+  position: absolute;
+  top:81%;
+  left: 42%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+}
+.line{
+  position: absolute;
+  top: -80%;
+}
+
+.border {
+  width: 100%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  border: 3px solid #747474;
+}
+
+.nav-link{
+  color: #747474;
+}
+.user_select_icon{
+  position: absolute;
+  top: 19.5%;
+  left: 10%;
+}
+
+.user_type{
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.student_selection{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.instructor_selection{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.login_logo_2{
+  position: absolute;
+  top:92%;
+  left: 30%;
+}
+
+.nav-link_2{
+  color: #747474;
+}
+
+.submit_button_2{
+  position: absolute;
+  top:93%;
+  left: 42%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.username{
+  position: absolute;
+  top : 2%;
+  left: 87%;
+}
+
+.user_email_info{
+  position: absolute;
+  top : 5%;
+  left: 73%;
+}
+
+.bottom_menu{
+  position: absolute;
+  top:8%;
+  width: 100%;
+
+}
+
+.course_box{
+  position: absolute;
+  height: auto;
+  left: 15%;
+  margin-top: 3.5%;
+}
+
+.current_courses{
+  position: absolute;
+  left: 2%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+}
+
+.individual_course{
+  position: relative;
+  width: 345px;
+  height: 240px;  
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  display:inline-block;
+}
+
+.individual_course_2{
+    position: absolute;
+    width: 345px;
+    height: 240px;  
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display:inline-block;
+}
+
+.triangle_icon{
+  position: absolute;
+  left: 10%;
+  top:7.8%;
+  color: #E2E2E2;
+}
+
+.triangle_icon_2{
+  position: absolute;
+  left: 17%;
+  top:7.8%;
+  color: #E2E2E2;
+}
+
+.course_icon{
+  position: absolute;
+  top: 3%;
+  left:3%;
+  color: #FFD704;
+}
+.course_icon_2{
+  position: absolute;
+  top: 3%;
+  left:3%;
+  color: #2D9CDB;
+}
+
+.level{
+  position: absolute;
+  top: 5%;
+  left:12%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #FFD704;
+}
+
+.level_2{
+  position: absolute;
+  top: 5%;
+  left:12%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #2D9CDB;
+}
+
+.name{
+  position: absolute;
+  top:25%;
+  left: 12%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.professor{
+  position: absolute;
+  top:50%;
+  left: 12%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.course_progress{
+  position: absolute;
+  top:70%;
+  left: 42%;
+  font-size: 20px;
+  color: #000000;
+}
+
+.add_icon{
+  position: absolute;
+  left:20%;
+  top:40%;
+}
+
+.add_course{
+  position: absolute;
+  left:30%;
+  top:40%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+}
+
+.search_box{
+  position: absolute;
+  width: 1218px;
+  height: 616px;
+  left:15%;
+  top:20%;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.search_course_id{
+  position: absolute;
+  left:8%;
+  top:13%;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.course_form{
+  position: absolute;
+  left:20%;
+  top:10%;
+  width: 809px;
+  font-size: 2.5em;
+  height: 70px;
+  background: #EAEAEA;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05), inset 1px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.search_icon{
+  position: absolute;
+  left: 90%;
+  top: 11%;
+}
