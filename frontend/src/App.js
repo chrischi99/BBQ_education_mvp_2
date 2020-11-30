@@ -36,7 +36,7 @@ class Login_page extends Component {
     <div className="Login">
       <div className = "top_menu">
         <span className = "bbq_logo"><GiDango size="40px"/></span>
-        <Link className = "nav-link" to="/loginPage"><span className = "login_menu">Login</span></Link>
+        <Link className = "nav-link" to="/"><span className = "login_menu">Login</span></Link>
         <Link className = "nav-link" to="/registerPage"><span className = "register_menu" >Register</span></Link>
 
 
@@ -74,7 +74,7 @@ class Register_page extends Component {
     <div className="Login">
       <div className = "top_menu">
         <span className = "bbq_logo"><GiDango size="40px"/></span>
-        <Link className = "nav-link" to="/loginPage"><span className = "login_menu">Login</span></Link>
+        <Link className = "nav-link" to="/"><span className = "login_menu">Login</span></Link>
         <Link className = "nav-link" to="/registerPage"><span className = "register_menu" >Register</span></Link>
 
 
@@ -119,7 +119,7 @@ class Register_page extends Component {
 
 
         <span className = "login_logo_2"><FaRegHandPaper size = "40px"/></span>
-        <Link className = "nav-link_2" to="/loginPage"><span className = "submit_button_2">Register !</span></Link>
+        <Link className = "nav-link_2" to="/"><span className = "submit_button_2">Register !</span></Link>
       </form>
       </div>
       
@@ -222,7 +222,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-          <Route path="/loginPage" exact component={Login_page} />
+          <Route path="/" exact component={Login_page} />
           <Route path="/registerPage" exact component={Register_page} />
           <Route path="/personalPage" exact component={Personal_page} />
           <Route path="/search_page" exact component = {Search_page} />
